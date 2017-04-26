@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+* {
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+}
+body {
+	margin: 0;
+}
+.container {
+	max-width: 100%;
+	height: 1200px;
+	margin: 0 auto;
+	background-image: url('https://images.pexels.com/photos/64778/pexels-photo-64778.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.board {
+	width: 100%
+	height: 100%;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	color: #fff;
+	font-size: 80px;
+}
+
+.column-container {
+	text-align: center;
+}
+
+.create-column {
+	background-color: #bbff99;
+	color: #fff;
+	font-size: 34px;
+	font-weight: bold;
+	border-color: #d9ffb3;
+	border-radius: 15px;
+	width: 300px;
+	height: 70px;
+	/*padding-bottom: 10px;*/
+	margin-bottom: 30px;
+	outline: none;
+}
+
+.add-card {
+	background-color: #fff;
+	color: #6b6b47;
+	font-size: 15px;
+	font-weight: bold;
+	border-color: #d9ffb3;
+	border-radius: 8px;
+	width: 100px;
+	height: 40px;
+	outline: none;
+	margin-right: 10px;	
+}
+
+.card {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.card p {
+	padding: 0 10px;
+	font-size: 25px;
+}
+
+.column-card-list {
+	text-align: left;
+	color: #fff;
+	padding-left: 150px;
+}
+
+.btn-delete {
+	background-color: #bbff99;
+	color: #6b6b47;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	width: 25px;
+	height: 28px;
+}
+.column {
+	float: left;
+	width: 33.33%;
+}
+
+.column-title {
+	color: #fff;
+	font-size: 35px;
+}
+
+.card-placeholder {
+	background: red;
+}
+
+@media (max-width: 768px) {
+
+	.container {
+		height: 1800px;
+	}
+	.column {
+		float: none;
+		width: 100%;
+	}
+	.column-card-list {
+		text-align: center;
+	}
+}
