@@ -37,8 +37,8 @@ function Column(id, name) {
 			
 			// KONSTRUOWANIE ELEMENTU KOLUMNY
 		column.append(columnTitle)
+				.append(columnAddCard)		
 				.append(columnDelete)
-				.append(columnAddCard)
 				.append(columnCardList);
 			
 				return column;

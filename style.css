@@ -49,7 +49,7 @@ h1 {
 	outline: none;
 }
 
-.add-card {
+.column-add-card {
 	background-color: #fff;
 	color: #6b6b47;
 	font-size: 15px;
@@ -67,9 +67,11 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	padding-left: 20%;
 }
 
 .card p {
+	color: #fff;
 	padding: 0 10px;
 	font-size: 25px;
 }
@@ -100,7 +102,9 @@ h1 {
 }
 
 .card-placeholder {
-	background: red;
+	background: #6b6b47;
+	/*list-style-type: none;*/
+
 }
 
 @media (max-width: 768px) {

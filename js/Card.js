@@ -5,7 +5,7 @@ function Card(id, name) {
 	this.id = id;
 	this.name = name || 'Nie podano nazwy';
 	//this.description = description;
-	//this.element = createCard();
+	this.element = createCard();
 
 	function createCard() {
 		var card = $('<li class="card"></li>');
